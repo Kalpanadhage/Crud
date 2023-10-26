@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operation</title>
+    <link rel="stylesheet" type="text/css" href="crud.css">
+</head>
+<body>
+    <table id="storeList">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Contact</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <form id="crudForm">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <div>
+            <label for="contact">Contact</label>
+            <input type="text" name="contact" id="contact">
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </div>
+    </form>
+
+    <script type="text/javascript" src="./crud.js"></script>
+</body>
+</html>
